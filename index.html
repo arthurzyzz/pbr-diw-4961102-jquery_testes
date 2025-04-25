@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY - GAMES</title>
+    <link rel="icon" href="assets/img/logo_pucminas.png" type="image/png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/bootstrap.bundle.min.js" ></script>    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="assets/img/image.png" class="img-fluid">   
+            </div>
+            <div class="col-9 text-center my-4 text-success">
+                <h1>JQUERY Games</h1>
+                <h3>Desenvolvimento de Interfaces WEB - Sistemas de Informação</h3>
+                <h3>Prof. Ms. Paulo Henrique Rodrigues</h3>                
+            </div>
+        </div>    
+    </div>
+    <div class="container bg-primary-subtle">
+        <div class="row p-4 text-center">
+            <div class="col-12">
+                <h1 class="text-center"> Seleção de Game</h1>                        
+            </div>
+        </div>
+        <div class="row p-4 text-center">    
+            <div class="col-4">
+                <div class="card" style="width: auto;">
+                    <img src="assets/img/sorte_do_dia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sorte do Dia</h5>
+                      <p class="card-text">Veja o que o destino te prepara.</p>
+                      <a href="#" class="btn btn-primary">Jogar</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: auto;">
+                    <img src="assets/img/imc.gif" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cálculo IMC</h5>
+                      <p class="card-text">Faça o calculo e descubra seu IMC.</p>
+                      <a href="#" class="btn btn-primary">Jogar</a>
+                    </div>
+                  </div>
+            </div>            
+            <div class="col-4">
+                <div class="card" style="width: auto;">
+                    <img src="assets/img/pedra_papel_tesoura.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pedra, Papel e Tesoura</h5>
+                      <p class="card-text">Jogue contra o computador.</p>
+                      <a href="#" class="btn btn-primary">Jogar</a>
+                    </div>
+                  </div>
+            </div>            
+        </div>
+        </div>
+    </div>
+
+    <!-- sorte do dia -->
+    <div class="container">
+        <div class="row p-4 text-center">
+            <div class="col-12">
+                <h1 class="text-center text-success"> Sorte do Dia</h1>                        
+            </div>
+            <div class="col-12">
+                <h4 class="text-center text-success">Bem vindo ao sorte do dia! Selecione uma das quatros opções abaixo e veja o que o destino te revela</h4>                        
+            </div>            
+        </div>
+        <div class="row my-4">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/flor_azul.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Opção 1</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/flor_lotus.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Opção 2</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/flor_nelumno.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Opção 3</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/girasol.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Opção 4</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-12">
+                <h1 class="text-center text-success"> Mensagem </h1>                        
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-3">
+                <button type="button" class="btn btn-outline-info">Voltar ao menu</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- Cálculo IMC  -->
+        <div class="container">
+            <div class="row p-4 text-center">
+                <div class="col-12">
+                    <h1 class="text-center text-info"> Cálculo do IMC</h1>                        
+                </div>
+                <div class="col-12">
+                    <h4 class="text-center text-info">Informe nos campos abaixo sua altura e seu peso, e descubra o seu IMC.</h4>                        
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-3">
+                  <label for="altura" class="form-label">Altura:</label> 
+                  <input type="text" class="form-control" placeholder="informe sua altura em metros">
+                </div>
+                <div class="col-3">
+                  <label for="distancia_percorrida" class="form-label">Peso:</label> 
+                  <input type="text" class="form-control" placeholder="informe seu peso em kg">
+                </div>
+                <div class="col-1">
+                    <br/>
+                    <button type="button" class="btn btn-primary">Calcular</button>
+                </div>
+                <div class="col-5">
+                    <br/>
+                    <span> Resultado do IMC </span>
+                </div>
+            </div>                
+            <div class="row my-4">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-info">Voltar ao menu</button>
+                </div>
+            </div>
+        </div>
+
+
+         <!-- Cálculo IMC  -->
+         <div class="container">
+            <div class="row p-4 text-center">
+                <div class="col-12">
+                    <h1 class="text-center text-danger"> Pedra, Papel e Tesoura</h1>                        
+                </div>
+                <div class="col-12">
+                    <h4 class="text-center text-danger">Selecione sua opção, clique em jogar e veja se ganhou ou não do computador.</h4>                        
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-6">
+                  <label for="altura" class="form-label">Opção do Usuário:</label> 
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card" style="width: auto;">
+                        <img src="assets/img/pedra.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Pedra</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: auto;">
+                          <img src="assets/img/papel.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text text-center">Papel</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="card" style="width: auto;">
+                          <img src="assets/img/tesoura.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text text-center">Tesoura</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
+                </div>
+                <div class="col-3">
+                  <label for="opcao" class="form-label">Opção do Computador:</label> 
+                  <div class="row">
+                    <div class="col-8">
+                        <div class="card" style="height: auto;">
+                          <img src="assets/img/question.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text text-center">Pedra</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                </div>        
+                <div class="col-3">
+                    <label for="opcao" class="form-label">Resultado:</label> 
+                    <div class="row">
+                      <div class="col-8">
+                          <div class="card" style="height: auto;">
+                            <img src="assets/img/question.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text text-center">Resultado</p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                
+            </div>                
+            <div class="row my-4">
+                <div class="col-6">
+                    <button type="button" class="btn btn-outline-info">Voltar ao menu</button>
+                    <button type="button" class="btn btn-outline-danger">Jogar</button>
+                    <button type="button" class="btn btn-outline-danger">Jogar Novamente</button>
+                </div>                
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+</html>
